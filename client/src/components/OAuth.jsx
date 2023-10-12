@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { signInSuccess } from '../redux/user/userSlice';
 import { useNavigate } from 'react-router-dom';
 
+
 export default function OAuth() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -36,10 +37,9 @@ export default function OAuth() {
     <button
       onClick={handleGoogleClick}
       type='button'
-      className='bg-red-700 text-white p-3 rounded-lg uppercase hover:opacity-95'
+      className='bg-red-700 text-white p-3  rounded-lg uppercase hover:opacity-95'
     >
-      Continue with google
-    </button>
+      Continue with google 
+    </button>  
   );
 }
- 
