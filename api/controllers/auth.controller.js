@@ -77,3 +77,5 @@ export const signOut = async (req, res, next) => {
     next(error);
   }
 };
+
+// why auth is not working
